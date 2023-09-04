@@ -12,11 +12,15 @@
     justify-content: center;
     flex-direction: column;
     gap: 30px;
-    background-color: rgb(248, 231, 208);
+    background-image: url('../images/avatar.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 30vh;
 }
 
 .title {
-    font-size: 1.5em;
+    font-size: 1.8em;
     text-align: center;
     font-family: Verdana;
     font-weight: bold;

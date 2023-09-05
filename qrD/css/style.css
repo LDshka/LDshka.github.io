@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    background-image: url('../images/avatar.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 15vh;
+}
+
+.outline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(1, 1, 1, 0.45);
+}
+
+.title {
+    font-size: 1.8em;
+    text-align: center;
+    font-family: Verdana;
+    font-weight: bold;
+    color: #ffffff;
+    position: relative;
+}
+
+.icon {
+    width: min(105px, 100%);
+    height: min(105px, 100%);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    transition: .3s ease-in-out;
+    filter: drop-shadow(2px 4px 16px rgba(0, 0, 0, 0));
+}
+
+.icon:not(.avatar):hover {
+    filter: drop-shadow(0px 0px 20px rgba(0, 0, 0, 0.149));
+}
+
+.avatar {
+    background-image: url(../images/avatar.jpg);
+}
+
+.whatsapp {
+    background-image: url(../images/whatsapp.png);
+}
+
+.instagram {
+    background-image: url(../images/instagram.png);
+}
